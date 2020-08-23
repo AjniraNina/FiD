@@ -15,7 +15,7 @@ body {
 @media screen and (min-width: 1200px){
 .container-featured .cta {
   position: absolute;
-  top: 94%;
+  top: 62.8%;
   left: 66%;
   transform: translate(-50%, -50%);
 
@@ -34,7 +34,7 @@ body {
 
 .container-featured .cta {
   position: absolute;
-  top: 60.5%;
+  top: 63.3%;
   left: 60%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -77,7 +77,7 @@ color: black;
 
   position: absolute;
   top: 62%;
-  left: 50%;
+  left:93%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color:transparent;
@@ -87,6 +87,7 @@ color: black;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  width:100%
 }
 }
 @media screen and (min-width:1600px){
@@ -97,7 +98,6 @@ color: black;
     
     position: absolute;
     top: 62%;
-    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: transparent;
@@ -219,6 +219,15 @@ right: 38.64%;
 
 
 }
+
+
+.logo-footer{
+
+  width: 95%;
+  margin-top:10px;
+ 
+ 
+ }
 
 .nav-content{
   
@@ -534,9 +543,11 @@ border-radius: 111px;
   display: flex;
   flex-direction: row;
 
-    align-items: center;
-    max-width:700px;
-    margin:auto;
+  align-items: center;
+  max-width: 850px;
+  margin:auto;
+
+
 }
 
 .tile-card {
@@ -544,36 +555,47 @@ border-radius: 111px;
   text-decoration: none;
   background-color: #fff;
 
-  border: 1px solid #C4C4C4;
-  box-sizing: border-box;
 
-  box-shadow: 0 2px 0 0 rgba(0,0,0,.12), 0 2px 4px 0 transparent, 0 12px 24px 0 transparent;
   border-radius: 20px;
   overflow: hidden;
 
-  margin:30px;
+  margin: 0px 40px;
+
 
 }
 .fasion-news-tile-img{
   flex: 0 0 auto;
   max-width: 100%;
+
+  border-radius: 30px;
+  box-shadow: 0 2.5px 0 0 rgba(0,0,0,.36), 0 2px 4px 0 transparent, 0 12px 24px 0 transparent
+
 }
 
 .tile-content{
   flex: 1 1 auto;
     display: flex;
     flex-direction: column;
+
+    align-items: center;
 }
 
 .tile-content h4{
 
-  padding: 10px;
+  padding: 30px;
   width: 500px;
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 36px;
+  text-align: center;
+
+font-style: normal;
+font-weight: bold;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+letter-spacing: -0.015em;
 }
 
 
@@ -4287,10 +4309,6 @@ ul {
 }
 
 /* line 2, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
-.footer-area {
-  background-color:white;
-  padding: 100px 0px 30px;
-}
 
 @media (max-width: 991px) {
   /* line 2, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
@@ -4486,11 +4504,6 @@ ul {
 }
 
 /* line 138, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
-.footer-area .copyright_part_text {
-  border-top: 1px solid #41404f;
-  padding-top: 30px;
-  margin-top: 83px;
-}
 
 /* line 142, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .copyright_part_text p {
@@ -4517,7 +4530,7 @@ ul {
 
 /* line 160, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .copyright_part_text a {
-  color: #ef1313;
+  color: yellow;
 }
 
 /* line 75, E:/168 Daren Blog/168_Daren_Blog_html/sass/_elements.scss */
@@ -6069,9 +6082,8 @@ h6 {
 
 /* line 138, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
 .footer-area .copyright_part_text {
-  border-top: 1px solid #41404f;
   padding-top: 30px;
-  margin-top: 83px;
+  margin-top: 3px;
 }
 
 /* line 142, E:/168 Daren Blog/168_Daren_Blog_html/sass/_footer.scss */
@@ -6115,4 +6127,32 @@ a {
     max-width: 33.333333%;
 }
 }
-/*# sourceMappingURL=style.css.map */
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1500px;
+}
+}
+
+
+.footer-brand {
+  display: inline-block;
+  margin-top: -3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+
+.line{
+  border-top: 1px solid #DCDCDC;
+  margin-top: 33px;
+  margin-left: 66px;
+  margin-right: 66px;
+}
+
+.footer-area {
+  background-color: #fff;
+  padding: 200px 0px 30px;
+}
