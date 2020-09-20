@@ -18,6 +18,9 @@ body {
   margin: 0;
   font-size: 14px;
 }
+
+
+
 .p {
 font-family: "Montserrat", sans-serif;
 }
@@ -7144,6 +7147,7 @@ display: none;
   .main-content p{
     font-size:20px;
     font-family: "Montserrat", sans-serif;
+    margin:25px;
   }
 
   .main-content{
@@ -7158,27 +7162,105 @@ display: none;
   }
 
   @media (min-width: 768px){
-.col-md-22 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%;
-}
+    .col-md-22 {
+      -ms-flex: 0 0 20.666667%;
+      flex: 0 0 20.666667%;
+      max-width: 20.666667%;
+  }
   }
 
   @media (min-width: 768px){
 .col-md-1010 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%;
+    -ms-flex: 0 0 78.333333%;
+    flex: 0 0 78.333333%;
+    max-width: 78.333333%;
 }}
 
+.fixed {
+  line-height: 2.5em;
+  list-style-image: url(../img/bullet.png);
+  font-size: 18px;
+  margin-top: 120px;
 
 
-.fixed ul li::before {
-  content: "\2022";
-  color: red;
-  font-weight: bold;
-  display: inline-block; 
-  width: 1em;
-  margin-left: -1em;
+  padding-top: 20px;
+
 }
+
+.fixed h3{
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+
+  margin-bottom: 15px;
+}
+
+
+.feature-banner {
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom:-100px;
+}
+
+
+.banner-headline {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+
+  padding-bottom: 55px;
+  padding-top: 25px;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.banner-headline h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 72px;
+
+  text-align: center;
+
+  margin-top: 55px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-content h2{
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+margin: 60px;
+letter-spacing: -0.015em;
+
+}
+
+.manifesto-logo{
+
+  transform: rotate(0.10deg);
+    max-width: 20%;
+    position: relative;
+    top: 140px;
+    left: 140px;
+
+  }
