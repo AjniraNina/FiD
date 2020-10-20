@@ -7350,3 +7350,118 @@ letter-spacing: -0.015em;
   
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.headline-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+
+.first-headline h2 
+  {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 53px;
+    letter-spacing: -0.015em;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-top: 40px;
+    margin-left: 290px;
+}
+
+
+.first-content{
+  padding-top: 43px;
+  padding-left: 108px;
+}
+
+@media screen and (min-width: 1600px) {
+
+  .banner-headline h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 72px;
+    text-align: center;
+    position: absolute;
+    margin-top: 195px;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.first-headline h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 53px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin-top: 40px;
+  margin-left: 290px;
+}
+
+}
+@media screen and (min-width: 1600px) {
+
+  .stuck-desert {
+    max-width: 14%;
+    transform: rotate(15.68deg);
+    left: 69%;
+    position: absolute;
+    margin-top: -120px;
+}
+
+.stuck-in-sweater {
+  max-width: 9%;
+  transform: rotate(-28.24deg);
+  position: absolute;
+  left: 64%;
+  margin-top: -5%;
+}
+
+.hug {
+  width: 05%;
+  /* height: 0; */
+  /* padding-bottom: 100%; */
+  position: absolute;
+  left: 67%;
+  top: 110%;
+}
+.first-content p{
+  
+    color: #666666;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.929;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #646464;
+
+}
+
+.feature-slut{
+    border-radius: 10px;
+    max-width: 73%;
+    margin: auto;
+    display: flex;
+}
+
+.banner-headline-slut h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 72px;
+  text-align: center;
+  position: absolute;
+  /* margin-top: 195px; */
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+}
