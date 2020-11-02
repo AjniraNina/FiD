@@ -7567,3 +7567,51 @@ letter-spacing: -0.015em;
   from {opacity: .4}
   to {opacity: 1}
 }
+/* news wall*/
+.box {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+  font-size: 50px;
+  text-align: center;
+}
+.box>div {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-content: stretch;
+	height: 1000px;
+}
+.box > div:first-child {
+	margin-right: 10px;
+}
+.big {
+	flex: 2;
+}
+.small {
+  flex: 2;
+  font-size:100%;
+}
+.box div div {
+	display: block;
+	overflow: hidden;
+	margin: 10px;
+	flex: 1;
+}
+
+@media screen and (max-width: 720px) {
+  .box{
+
+      display: inherit;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      font-size: 50px;
+      text-align: center;
+      color: #fff;
+      /* flex-wrap: nowrap; */  
+  }
+}
+
+
+
+
