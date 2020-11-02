@@ -17,6 +17,10 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 
@@ -38,6 +42,9 @@ font-family: "Montserrat", sans-serif;
     text-align: center;
   }
 
+.miniTriangle{
+  max-width: 10%;
+}
 
 @media screen and (min-width: 1600px) {
 
