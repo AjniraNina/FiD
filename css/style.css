@@ -17,14 +17,47 @@ body {
   padding: 0;
   margin: 0;
   font-size: 14px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   margin-left: 100px;
   margin-right: 100px;
 }
 
+@media screen and (max-width: 720px) {
 
-.p {
+  body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){ 
+
+  body {
+    font-family: "Montserrat", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+
+}
+
+p {
 font-family: "Montserrat", sans-serif;
 }
 
@@ -43,7 +76,7 @@ font-family: "Montserrat", sans-serif;
   }
 
 .miniTriangle{
-  max-width: 10%;
+  max-width: 8%;
 }
 
 @media screen and (min-width: 1600px) {
@@ -236,7 +269,7 @@ font-family: "Montserrat", sans-serif;
   z-index: 7;
   background-color: white;
   position: fixed;
-  top: -50px;
+  top: -68px;
   width: 100%;
   display: block;
   transition: top 0.3s;
@@ -7452,12 +7485,7 @@ letter-spacing: -0.015em;
 
 }
 
-.feature-slut{
-    border-radius: 10px;
-    max-width: 73%;
-    margin: auto;
-    display: flex;
-}
+
 
 .banner-headline-slut h2 {
   font-family: "Montserrat";
@@ -7471,6 +7499,14 @@ letter-spacing: -0.015em;
   transform: translate(-50%, -50%);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.feature-slut{
+  border-radius: 10px;
+  max-width: 73%;
+  margin: auto;
+  display: flex;
+}
+
 }
 
 * {box-sizing:border-box}
@@ -7570,17 +7606,13 @@ letter-spacing: -0.015em;
 /* news wall*/
 .box {
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 10px;
-  font-size: 50px;
-  text-align: center;
+
 }
 .box>div {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: column;
 	align-content: stretch;
-	height: 1000px;
 }
 .box > div:first-child {
 	margin-right: 10px;
@@ -7593,10 +7625,11 @@ letter-spacing: -0.015em;
   font-size:100%;
 }
 .box div div {
-	display: block;
-	overflow: hidden;
-	margin: 10px;
-	flex: 1;
+    display: block;
+    overflow: hidden;
+    margin: 21px 21px 40px 21px;
+    flex: 1;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 720px) {
@@ -7612,6 +7645,247 @@ letter-spacing: -0.015em;
   }
 }
 
+.feature-slut {
+  border-radius: 10px;
+  max-width: 80%;
+  margin:auto;
+  display: flex;
+  margin-top: 46px;
+}
+
+.banner-headline-slut h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 72px;
+  text-align: center;
+  position: absolute;
+  margin-top: 109px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.main-content-psychology{
+  padding-left: 120px;
+  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-right: 120px;
+
+}
+
+.main-content-psychology p{
+  font-size:20px;
+  font-family: "Montserrat", sans-serif;
+  margin:25px;
+}
+
+.main-content-psychology h2{
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+margin: 60px;
+letter-spacing: -0.015em;
+
+}
+.active, .dot:hover {
+  background-color: transparent;
+}
+
+#navbar a:hover {
+  background-color: transparent;
+}
+
+@media only screen and (max-width: 600px){
+.main-content-psychology {
+    padding: 20px;
+}}
+
+@media only screen and (max-width: 600px){
+ 
+  .feature-slut {
+        border-radius: 0px;
+        margin-bottom: 10px;
+        margin-top: 157px;
+        max-width: 150%;
+        display: flex;
+    }
+
+    .banner-headline-slut h2 {
+      width: max-content;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: bold;
+      font-size: 15px;
+      line-height: 6px;
+      text-align: center;
+      position: absolute;
+      margin-top: 194px;
+      transform: translate(-50%, -50%);
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+}
+
+@media only screen and (max-width: 600px){
+  .main-content-psychology h2{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3em;
+    line-height: 22px;
+    text-align: center;
+    position: absolute;
+    margin-top: 190px;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}}
 
 
 
+@media only screen and (max-width: 600px)
+{.main-content-psychology p {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    margin: 5px;
+    text-align: left;
+}}
+
+/* ipad footer & style */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio: 1){ 
+  .ipadfooter{
+    width:1500px;
+  }
+  .feature-slut {
+    border-radius: 10px;
+    max-width: 91%;
+    margin: auto;
+    display: flex;
+    margin-top: 246px;
+}
+
+.banner-headline-slut h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 7px;
+  text-align: center;
+  position: absolute;
+  margin-top: 309px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 1000px;
+}
+
+.main-content-psychology p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 25px;
+  text-align: justify;
+}
+
+}
+
+.banner-headline-news h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 72px;
+  text-align: center;
+  position: absolute;
+  margin-top: -90px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-headline-news{
+  font-family: "Montserrat"; 
+  font-style: normal; 
+  font-weight: normal;
+  padding-bottom: 55px;
+  padding-top: 25px;
+}
+
+.news-tagline p{
+  text-align: center;
+    margin-top: -125px;
+    margin-bottom: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.box p{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: -0.015em;
+}
+
+
+.feature-news {
+  border-radius: 10px;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 46px;
+}
+
+@media only screen and (max-width: 720px)
+{.feature-news {
+    border-radius: 0px;
+    margin-bottom: 10px;
+    margin-top: 157px;
+    max-width: 300%;
+    display: flex;
+}
+.banner-headline-news h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 72px;
+  text-align: center;
+  position: absolute;
+  margin-top: -134px;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.news-tagline p {
+    padding: 0px 10px 10px 10px;
+    text-align: center;
+    margin-top: -161px;
+    margin-bottom: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.box {
+  display: inherit;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 50px;
+  text-align: left;
+  color: #fff;
+  /* flex-wrap: nowrap; */
+}
+}
+
+.fade:not(.show) {
+  opacity: 100;
+}
