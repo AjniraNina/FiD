@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+    
 
 <head>
     <!-- Required meta tags -->
@@ -26,13 +27,22 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
         rel="stylesheet">
 
+           
+    <style> 
+        #div { 
+            display: none; 
+        }
+        
+        html {
+  scroll-behavior: smooth;
+}
+    </style> 
 </head>
 
 <body>
 
 
     
-
     
     <!--::header part start::-->
     <header class="main_menu sticky-mobile">
@@ -87,9 +97,9 @@
 
     <div id="navbar">
         <a href="#landing"><img src="triangleLogo.png" class="miniTriangle"></a>
-        <a href="#home"><strong>Fashion Psychology</strong></a>
-        <a href="#news"><strong>Fashion News</strong></a>
-        <a href="#contact"><strong>Fashion Inspiration</strong></a>
+        <a href="fashion-psychology-archive.html"><strong>Fashion Psychology</strong></a>
+        <a href="fashin-news-archive.html"><strong>Fashion News</strong></a>
+        <a href="fashion-inspiration-archive.html"><strong>Fashion Inspiration</strong></a>
     </div>
 <!--dropdown mobile-->
 
@@ -107,19 +117,62 @@
      Featured post start-->
 
     <div class="container-featured">
-
-        <img class="fashion-manifesto" src="manifesto.jpg" alt="Fashion Manifesto">
-
+<a href="fashion-manifesto.html">
+        <img src="manifesto.jpg" alt="Image supporting a manifesto on fashion psychology, sustainability and how to change your life">
+        </a>
+        <a href="fashion-manifesto.html">
         <button class="cta">Check it out</button>
+        </a>
     </div>
 
 
-    <div class="flexing-quotes">
-        <div class="qoutes-style">
-            <h2>Fashion is danger</h2>
-            <p>Life is too short to be a fashions’ victim. </p>
-        </div>
-    </div>
+    <div class="adventure-container"> 
+
+        <div class="adventure-featured">
+          <h2>First time here?</h2> 
+          
+          <p> Check <a onClick="GFG_Fun()" class="mobile-cta">this out.</a></p>
+
+        
+        
+    <p id="GFG_UP" style= 
+    "font-size: 19px;font-weight: bold;"> 
+</p> 
+  
+<div id="div"> 
+</br>
+    <p>Fancy seeing you here!</p> 
+</div> 
+<br> 
+  
+  
+<p id="GFG_DOWN"
+    style="color: green;"> 
+</p> 
+        </div>  
+<script> 
+    $('#GFG_UP').text( 
+"Click on button to toggle the DIV Box using Bootstrap."); 
+
+    function toggler(divId) { 
+        $("#" + divId).toggle(); 
+    } 
+
+    function GFG_Fun() { 
+        toggler('div'); 
+        // $('#GFG_DOWN').text("."); 
+    } 
+</script> 
+
+    <br> 
+        <!-- <div class="adventure-button">
+        <button class="cta"> FiD ADVENTURE</p>
+          </button> -->
+
+</div>
+
+
+
 
     </div>
 
@@ -130,22 +183,16 @@
 
         <img class="wtw" src="what-to-wear.jpg" alt="Article about why people tell you what to wear">
 
-        <button class="secondary-cta">Find out!</button>
+        <button  id="red" class="secondary-cta">Find out</button>
     </div>
 
-
+    <div class="flexing-quotes">
+        <div class="qoutes-style">
+            <h2>Fashion is danger</h2>
+            <p>Life is too short to be a fashions’ victim. </p>
+        </div>
+    </div>    
     
-    <div class="adventure-container"> 
-
-        <div class="adventure-featured">
-          <h2>First time here?</h2> 
-          <p> Check <a href="first-time-here.html" class="mobile-cta">this page</a> out.</p>
-        </div> 
-        <!-- <div class="adventure-button">
-        <button class="cta"> FiD ADVENTURE</p>
-          </button> -->
-
-</div>
         </div>
     </div>
 
@@ -153,15 +200,15 @@
 <div class="muse">
     
         <img src="rosalia-fashionista-muse.JPG" alt="Rosalia in her garden">
-            <button class="cta"> Inspire me!</p>
-              </button>
+            <!-- <button class="cta"> Inspire me!</p>
+              </button> -->
               <div class="muse-content">
                 <h2>Fashion Inspiration: <strong>La Rosalia</strong></h2> 
             </br>
-                <p>Let’s dive into the fashion style of the uber-talented Spanish musician Rosalia!</p>
+                <p>Rosalia is a Spanish musician that embodies fashion trends, street style and personality with ease.</p>
                 <!-- <p><strong>Warning:</strong> Copyng her style may occur.</p> -->
               </br>
-    <p><a href="fashion-inspo-rosalia.html"><strong>Read on</strong></a> </p>
+    <p><a href="fashion-inspo-rosalia.html"><strong>Inspire me</strong></a> </p>
 </div>
   </div>
 </div>
@@ -171,7 +218,7 @@
 
     <img class="lovenotes" src="love-notes-alan.jpg" alt="Article about how a boy fell for sheer thights">
 
-    <button class="secondary-cta">Find out!</button>
+    <button class="secondary-cta">Find out</button>
 </div>
 
 
@@ -200,27 +247,39 @@
 
 <div class="fashion-news-tile">
     <div class="tile-card">
+        <div class="container-news">
+
         <img class="fasion-news-tile-img" src="local-mask.jpg">
         
-        <div class="tile-content">
+        <div class="overlay">
+            <div class="text-news"><p>Find about local business made masls</p></div>
+          </div>
+        </div>
+    <div class="tile-content">
     <h4>Local Designers Masks</h4>
 
     
         </div>
 </div>
+
 <div class="tile-card">
-    <img class="fasion-news-tile-img" src="fast-fashion-corona.jpg">
+ <div class="container-news">
+    <img class="fasion-news-tile-img" src="fast-fashion-corona.jpg" alt="supporting image for Corona news in Fashion industry">
     
-    <div class="tile-content">
-<h4>Fast fashion ignores COVID-19</h4>
+  <div class="overlay-right">
+    <div class="text-news-right"><p>Hello World</p></div>
+  </div>
+  </div>
+  
+  <div class="tile-content">
+    <h4>Fast fashion ignores COVID-19</h4>
 
     </div>
 </div>
-    </div>
 
 
 
-
+</div>
     <footer class="footer-area">
 
         <div class="row align-items-center">
@@ -282,7 +341,7 @@
                 <div  class="col-xl-1 col-md-2 col-sm-2 marvelouscategories">
                     <div class="single-footer-widget footer_3">
     
-                        <h4> Inspiration</h4>
+                        <h4>Inspiration</h4>
                     </div>
                 </div>
 
@@ -302,7 +361,7 @@
                         © FashionistaInDanger 2020
     
                     </p>
-                    <p>Your daily dose of fashion strategy.</p>
+                    <p>Your dose of fashion strategy.</p>
                 </div>
             </div>
         </div>
@@ -311,6 +370,19 @@
     <!-- footer part end-->
 
     <!-- jquery plugins here-->
+<script>
+    function myFunction() {
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+
+
+</script>
     <!-- jquery -->
     <script src="js/jquery-1.12.1.min.js"></script>
     <!-- popper js -->
@@ -319,7 +391,6 @@
     <script src="js/bootstrap.min.js"></script>
     <!-- custom js -->
     <script src="js/custom.js"></script>
-
 
 
 </body>
