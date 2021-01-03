@@ -22,6 +22,16 @@
   <link rel="stylesheet" href="css/slick.css">
   <!-- style CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KGN31HG3V6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KGN31HG3V6');
+</script>
 </head>
 
 <body>
@@ -95,7 +105,7 @@
           </div>
         </div>
         <div class="col-12 main-content form-align">
-          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+          <form class="form-contact contact_form" action="contact_process.php" method="POST" data-netlify="true" id="contactForm"
             novalidate="novalidate">
             <div class="row">
               <div class="col-12">
