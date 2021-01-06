@@ -66,7 +66,7 @@ $(document).ready(function(){
                             $(this).find('label').css('cursor','default');
                             $('#success').fadeIn()
                             $('.modal').modal('hide');
-		                	$('#success').modal('show');
+		                	$('#success').modal('hide');
                         })
                     },
                     error: function() {
