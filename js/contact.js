@@ -13,6 +13,7 @@
                     alert(error))
             }
 
+
             $(document).ready(function(){
     
                 (function($) {
