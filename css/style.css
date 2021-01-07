@@ -9696,6 +9696,7 @@ display: none;
 }
 
 }
+@media screen and (min-width: 764px){
 
 .container-featured h2 {
   font-family: "Montserrat";
@@ -9708,7 +9709,57 @@ display: none;
   text-align: center;
 
 }
+}
 
+@media screen and (max-width: 764px){
+
+
+  .container-featured h2 {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1.7em;
+    text-align: center;
+  
+  }}
+  @media screen and (max-width: 464px){
+  .container-featured h2 {
+      font-family: "Montserrat";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-weight: 800;
+      font-size: 1.4em;
+      text-align: center;
+  }}
+
+  @media screen and (max-width: 394px){
+.container-featured h2 {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1.2em;
+    text-align: center;
+}}
+
+@media screen and (max-width: 328px)
+{.container-featured h2 {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+}}
 
 .container-wtw h2{
  
@@ -9723,6 +9774,67 @@ display: none;
   line-height: 36px;
   letter-spacing: -0.015em;
 }
+
+@media screen and (max-width: 760px){
+
+
+.container-wtw h2 {
+  font-family: "Montserrat";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 1.7em;
+  text-align: center;
+  line-height: 26px;
+  letter-spacing: -0.015em;
+}
+}
+@media screen and (max-width: 568px){
+
+.container-wtw h2 {
+  font-family: "Montserrat";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 1.7em;
+  text-align: center;
+  line-height: 22px;
+  letter-spacing: -0.015em;
+}
+}
+
+@media screen and (max-width: 426px)
+{.container-wtw h2 {
+   font-family: "Montserrat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+}}
+
+
+@media screen and (max-width: 316px)
+{.container-wtw h2 {
+    font-family: "Montserrat";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+    line-height: 14px;
+    letter-spacing: -0.015em;
+}}
 
 #inspire{
   font-family: "Montserrat";
@@ -9803,3 +9915,25 @@ display: none;
       border-color: #FFE63C;
       border-radius: 6px;
   }
+
+
+
+#colorMePink{
+  color:#e35da2;
+}
+
+
+@media screen and (max-width: 768px){
+
+  .container-wtw .secondary-cta{
+
+top: 63.5%;
+left: 89%;}}
+
+@media screen and (max-width: 754px){
+.container-wtw .secondary-cta {
+    top: 60.5%;
+    left: 89%;
+    font-size: 20px;
+
+}}
