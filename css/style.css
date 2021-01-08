@@ -7971,7 +7971,7 @@ and (-webkit-min-device-pixel-ratio: 1){
 
 
 .responsive-margin{
-margin-top: 200px;}
+margin-top: 10%;}
 
 /*headline inspiration*/
 @media only screen and (max-width: 720px)
@@ -9237,6 +9237,7 @@ margin-top: 1%;}}
 
 
 
+
 @media only screen and (max-width: 768px)
 
 {
@@ -9937,3 +9938,18 @@ left: 89%;}}
     font-size: 20px;
 
 }}
+
+@media screen and (max-width: 280px){
+.container-featured img{
+  margin-bottom:20px;
+}
+.container-featured .cta{
+top:74%;
+}
+}
+
+
+.banner-headline-news h2 {
+  top:50%;
+  left:50%;
+}
