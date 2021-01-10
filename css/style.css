@@ -10187,6 +10187,19 @@ display: block;
 }}
 
 
+@media screen and (max-width: 1347px){
+.news-tagline p {
+    text-align: center;
+    margin-top: -7%;
+    margin-bottom: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    margin-left: 21%;
+    /* text-align: center; */
+}}
+
 @media screen and (max-width: 1240px)
 {.news-tagline p {
 
