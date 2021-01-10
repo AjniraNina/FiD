@@ -9748,6 +9748,7 @@ display: none;
     font-weight: 800;
     font-size: 1em;
     text-align: center;
+    margin-top:-4%;
 }}
 
 .container-wtw h2{
@@ -9762,6 +9763,23 @@ display: none;
   text-align: center;
   line-height: 36px;
   letter-spacing: -0.015em;
+}
+
+@media screen and (max-width: 782px){
+
+.container-wtw h2 {
+  margin-top: -2%;
+  font-family: "Montserrat";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 2em;
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+}
 }
 
 @media screen and (max-width: 760px){
@@ -9866,7 +9884,7 @@ display: none;
 
 @media screen and (max-width: 744px){
 .banner-container h2{
-  font-size: 20px;
+  font-size: 26px;
 }
 .main-content-psychology{
   padding:0px;
@@ -9874,6 +9892,15 @@ display: none;
 }
 }
 
+@media screen and (max-width: 540px)
+{.banner-container h2 {
+    font-size: 21px;
+}}
+
+@media screen and (max-width: 425px)
+{.banner-container h2 {
+    font-size: 20px;
+}}
 
 @media screen and (max-width: 764px){
   
@@ -9919,7 +9946,7 @@ display: none;
   margin-top: 15%;
 }
 .banner-container h2 {
-  font-size: 13px;
+  font-size: 1.2em;
 }
 }
 
@@ -9956,6 +9983,15 @@ display: none;
 top: 63.5%;
 left: 89%;}}
 
+
+@media screen and (max-width: 756px)
+{.container-wtw .secondary-cta {
+    top: 58.5%;
+    left: 89%;
+}}
+
+
+
 @media screen and (max-width: 754px){
 .container-wtw .secondary-cta {
     top: 60.5%;
@@ -9964,6 +10000,21 @@ left: 89%;}}
 
 }}
 
+@media screen and (max-width: 507px)
+{.container-wtw .secondary-cta {
+    top: 58.5%;
+    left: 86%;
+    font-size: 20px;
+}}
+
+
+
+@media screen and (max-width: 494px){
+.container-wtw .secondary-cta {
+    top: 60.5%;
+    left: 85%;
+    font-size: 20px;
+}}
 
 @media screen and (max-width: 448px)
 {.container-wtw .secondary-cta {
@@ -9980,12 +10031,27 @@ left: 89%;}}
 }}
 
 
+
+@media screen and (max-width: 421px){
+.container-wtw .secondary-cta {
+    top: 58.5%;
+    left: 85%;
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 426px)
+{.container-wtw h2 {
+width:fit-content;
+}
+}
 @media screen and (max-width: 320px){
 .container-wtw .secondary-cta {
     top: 64.5%;
     left: 80%;
     font-size: 15px;
 }}
+
 
 @media screen and (max-width: 280px)
 
@@ -10336,4 +10402,16 @@ display: block;
     margin-top: -15%;
     margin-left: 0%;
     font-size: 0.9em;
+}}
+
+@media screen and (max-width: 320px)
+{.container-wtw h2 {
+    margin-top:-3%;
+}}
+
+@media screen and (max-width: 302px)
+{.container-wtw .secondary-cta {
+    top: 57.5%;
+    left: 80%;
+    font-size: 15px;
 }}
