@@ -59,7 +59,7 @@
                                     <a class="nav-link" href="fashion-news-archive.html">Fashion News</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="fashion-inspiration.html"> Fashion Inspiration</a>
+                                    <a class="nav-link" href="fashion-inspiration-archive.html"> Fashion Inspiration</a>
                                 </li>
 
                             </ul>
@@ -389,14 +389,14 @@
             <div  class="col-xl-2 col-md-2 col-sm-2 marvelouscategories">
                 <div class="single-footer-widget footer_3">
 
-                    <h4><a href="fashion-psychology-archive">Fashion Psychology</a></h4>
+                    <h4><a href="fashion-psychology-archive.html">Fashion Psychology</a></h4>
                 </div>
             </div>
 
             <div class="col-xl-2 col-md-2 col-sm-2 marvelouscategories">
                 <div class="single-footer-widget footer_3">
 
-                    <h4><a href="fashion-news-archive"> News</a></h4>
+                    <h4><a href="fashion-news-archive.html"> News</a></h4>
                 </div>
             </div>
 
@@ -448,7 +448,7 @@
 var $sidebar   = $(".fixed"), 
     $window    = $(window),
     offset     = $sidebar.offset(),
-    topPadding = 1;
+    topPadding = 0;
 
 $window.scroll(function() {
     if ($window.scrollTop() > offset.top) {
@@ -457,7 +457,7 @@ $window.scroll(function() {
         });
     } else {
         $sidebar.stop().animate({
-            marginTop: 0
+            marginTop: -10
         });
     }
 });
