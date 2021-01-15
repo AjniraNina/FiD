@@ -10438,4 +10438,11 @@ display: block;
 {
 #archive-muse{
  margin-top:60%; 
-}}
+}
+.text-news-right p{
+  font-size: 10px;
+}
+.text-news p{
+  font-size: 10px;
+}
+}
