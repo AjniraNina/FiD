@@ -10427,3 +10427,15 @@ display: block;
     left: 80%;
     font-size: 15px;
 }}
+
+@media screen and (max-width: 899px)
+{
+.archive{
+ margin-top:20%; 
+}}
+
+@media screen and (max-width: 899px)
+{
+#archive-muse{
+ margin-top:60%; 
+}}
