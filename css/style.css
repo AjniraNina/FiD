@@ -10446,3 +10446,7 @@ display: block;
   font-size: 10px;
 }
 }
+
+#linkNews{
+  text-decoration: underline;
+}
