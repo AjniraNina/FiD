@@ -10450,3 +10450,7 @@ display: block;
 #linkNews{
   text-decoration: underline;
 }
+
+#archive-spacer-news{
+  padding-top:10%;
+}
