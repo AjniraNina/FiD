@@ -36,21 +36,41 @@
   gtag('js', new Date());
 
   gtag('config', 'G-KGN31HG3V6');
+
+  
 </script>
 
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.min.js"></script>
 
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.text_container').addClass("hidden");
 
+		$('.text_container').click(function() {
+			var $this = $(this);
+
+			if ($this.hasClass("hidden")) {
+				$(this).removeClass("hidden").addClass("visible");
+
+			} else {
+				$(this).removeClass("visible").addClass("hidden");
+			}
+		});
+	});
+</script>
 
 </head>
 
 <style>
-    #myDIV #myDIV1 #myDIV2  {
-      width: 100%;
-      padding: 50px 0;
-      text-align: center;
-      margin-top: 20px;
-    }
 
+
+    .hidden>div {
+	display:none;
+}
+
+.visible>div {
+	display:block;
+}
     </style>
 
 <body>
@@ -160,70 +180,38 @@
     <p> We are denied school, work and friendships when we wear &lsquo;distracting clothing&rsquo;. People threaten, scream and attack all under the demise of &ldquo;I know what&rsquo;s best for you&rdquo;.</p>
     
     <h2> Slut Shaming In Society</h2>
-    <p>There are so many examples of slut-shaming that I could probably get a book just documenting them. I am aware that writing a book would take for ever. So, instead here are a few examples that managed to trigger me as if it's no ones business; 
+    <p>There are so many examples of slut-shaming that I could probably get a book deal just documenting them. I am aware that writing a book would take for ever and it would be triggering to a lot of fashionistas. So, instead here are a few examples that managed to trigger me as if it's no ones business; 
     </p><p>P.S. You can just tap on the examples, or skip them if you prefer not to be triggered.</p>
 
-    <button onclick="myFunction()">An open letter</button>
-
-<div id="myDIV">
-<p>There was an open letter written in 2017 by a woman to all women. A journalist pleaded with women to stop wearing unicorn shirts. 
-    She threatened that it's antifeminist to wear unicorns. She claimed that no self respecting adult would infantilize themselves like that. 
-    It's ironic that she used Amelia Earhart, a famous pilot from the 1800s to support her arguments - Amelia was notorious for wearing pants.
-     In the 1800&rsquo;s pants-wearing women were considered silly, often imprisoned and absolutely disrespectful. 
-     Logic in this open letter made no sense and slut-shaming was palpable. Logic rarely accompanies slut-shaming</p>
-</div>
-
-<script>
-function myFunction() {
-  var x = document.getElementById("myDIV");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+    <div class="text_container">
+        <h3>An <a class="mobile-ctax">open letter</a></h3>
+        <div><!--div that we want to hide-->
+            <p>There was an open letter written in 2017 by a woman to all women. A journalist pleaded with women to stop wearing unicorn shirts. 
+            She threatened that it's antifeminist to wear unicorns. She claimed that no self respecting adult would infantilize themselves like that. 
+            It's ironic that she used Amelia Earhart, a famous pilot from the 1800s to support her arguments - Amelia was notorious for wearing pants.
+             In the 1800&rsquo;s pants-wearing women were considered silly, often imprisoned and absolutely disrespectful. 
+             Logic in this open letter made no sense and slut-shaming was palpable. Logic rarely accompanies slut-shaming</p>        </div>
+    </div><!--end div_text_container-->
+    
 
 
-<button onclick="myFunction1()">As seen on reddit</button>
-
-<div id="myDIV1">
-<p>A few months back, a woman complained to Reddit about her friend ruining a party.
-     She was offended that a 20-something old girl would wear Marvel inspired clothes and disrespect her all grown-up party.
-      A woman on Reddit wondered if she overreacted...</p><p>Reddit's upvotes concluded that she did.</p>
-</p>
-</div>
-
-<script>
-function myFunction1() {
-  var x = document.getElementById("myDIV1");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+    <div class="text_container">
+        <h3>As seen <a class="mobile-ctax">on reddit</a></h3>
+        <div><!--div that we want to hide-->
+            <p>A few months back, a woman complained to Reddit about her friend ruining a party.
+                She was offended that a 20-something old girl would wear Marvel inspired clothes and disrespect her all grown-up party.
+                 A woman on Reddit wondered if she overreacted...</p><p>Reddit's upvotes concluded that she did.</p>
+           </p>        </div>
+    </div><!--end div_text_container-->
 
 
-<button onclick="myFunction2()">As seen in the world</button>
-
-<div id="myDIV2">
-<p>In Cambodia a woman was charged with pornograhy for wearing sexy clothing. 
-    In Turkey a woman was slapped by a pedestrian, in Iran women are not allowed to go anywhere without scarves. World is yet to figure out the best way to react.
-</p>
-</div>
-
-<script>
-function myFunction2() {
-  var x = document.getElementById("myDIV2");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-</script>
+    <div class="text_container">
+        <h3>As seen <a class="mobile-ctax">in the world</a></h3>
+        <div><!--div that we want to hide-->
+            <p>In Cambodia a woman was charged with pornograhy for wearing sexy clothing. 
+                In Turkey a woman was slapped by a pedestrian, in Iran women are not allowed to go anywhere without scarves. World is yet to figure out the best way to react.
+            </p>        </div>
+    </div><!--end div_text_container-->
 
 
     
@@ -257,7 +245,6 @@ function myFunction2() {
     <p> But, you do &ldquo;got this&rdquo;! People that wear different stuff from you, just wear different stuff. Nobody is getting eaten by a lion because of it.</p>
     
     <p> Long story short; don&rsquo;t tell anyone what to wear!</p>
-
 
 
 
