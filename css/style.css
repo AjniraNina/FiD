@@ -7373,7 +7373,7 @@ letter-spacing: -0.015em;
 .main-content p {
   font-size: 1em;
   font-family: "Montserrat", sans-serif;
-  margin: 10%;
+  margin: 10% 0 10% 0;
   text-align: left;
 }
 
@@ -10471,3 +10471,9 @@ display: block;
   border-bottom: 2px solid #f3c5dc;
   border-radius: 2px;
 }
+
+@media screen and (max-width: 600px)
+{
+.feature-banner {
+  border-radius: 0;
+}}
