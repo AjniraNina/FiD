@@ -10477,3 +10477,76 @@ display: block;
 .feature-banner {
   border-radius: 0;
 }}
+
+.aboutFID{
+  max-width: 39%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.aboutFID:hover {
+  box-shadow: 0 0px 0px rgba(0,0,0,0.0);
+}
+
+
+@media screen and (max-width: 762px)
+{
+.aboutFID {
+  max-width: 62%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}}
+
+@media screen and (max-width: 684px)
+{.aboutFID {
+    max-width: 62%;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}}
+
+@media screen and (max-width: 574px)
+{.aboutFID {
+    max-width: 62%;
+    position: absolute;
+    top: 74%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}}
+
+@media screen and (max-width: 424px)
+{.aboutFID {
+    max-width: 82%;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}}
+
+@media screen and (max-width: 374px)
+{
+  #aboutcontent{
+    margin-top: 0%;
+}
+}
+
+@media screen and (max-width: 358px)
+{.aboutFID {
+    max-width: 82%;
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}}
+
+
+
+#aboutcontent{
+  margin:auto;
+}
