@@ -133,7 +133,9 @@
 		<div class="left big">
 			<div>
                 <p><strong>Kamala Harris on the cover of Vogue</strong></p>
-                <p>Vice President-Elect Kamala Harris is in news. Less for her politics and more for her fashion - read double cover of Vogue. There is a lot out there on this topic. Youtuber from <a href="https://www.youtube.com/watch?v=_TXtNUP5GB0" target="_blank" title="Link to the video" id="linkNews">HauteleMode</a> argues that even though the story around this Vogue cover is interesting shouldn't be the only topic discussed.  </p>
+                <p>Vice President-Elect Kamala Harris is in news. Less for her politics and more for her fashion - read double cover of Vogue. There is a lot out there on this topic. Youtuber from <a href="https://www.youtube.com/watch?v=_TXtNUP5GB0" target="_blank" title="Link to the video" id="linkNews">HauteleMode</a> argues that even though the story around this Vogue cover is interesting shouldn't be the only topic discussed.</p>
+                <button id="myBtn" class="mobile-ctax">Open News</button>
+
             </div>
             
 			<div> <p><strong>Business Insider on Safety of workers</strong></p>
@@ -145,7 +147,12 @@
 
 
 			<div> <p><strong>Pelosi's impechment outfit</strong></p>
-                <p>Nancy Pelosi utilizes fashion. She always embeds her message in the outfits. The latest one was a reminder that America is a real place where impechments happen twice in a row. Vogue wrote that Nancy's message with the impeachment outfit was clear; "Can you believe we are doing this again?".</p></div>
+                <p>Speaker of the House Nancy Pelosi has made a subtle statement by wearing the same outfit to the second impeachment of US President Donald Trump.
+                </p>
+                <p> Vogue wrote that Nancy's message with the impeachment outfit was clear; "Can you believe we are doing this again?".</p>
+                <button id="myBtn1" class="mobile-ctax">Open News</button>
+
+            </div>
 			<div><p><strong>Now Fashion on Textile Business</strong></p>
                 <p>“In Bangladesh, where the textile business accounts for 80% of the country's exports, factory owners face financial ruin, and the livelihoods of hundreds of thousands of garment workers are uncertain. "The situation is terrible. The Bangladeshi supply chain is in complete disarray with many foreign brands acting irresponsibly," said the managing director of the Ananta Group, Sharif Zahir, to The New York Times. His company owns seven factories (with a total of 26,000 workers) and supplies many fashion brands, including H&M, Zara, Gap, Levi's and Marks & Spencer.” - Now Fashion</p></div>
 		</div>
@@ -167,6 +174,57 @@
     </div>
 </div>
  -->
+
+ <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2 class="modal-header">Kamala Harris and a double cover</h2>
+      </div>
+      <div class="modal-body">
+        <img class="close-image" src="img/news/kamala-harris-vogue.jpg" alt="Kamala Harris on a double cover">
+        <p>Vice President-Elect Kamala Harris is in news. Less for her politics and more for her fashion - read double truoble Vogue. </p>
+        <p>The February Vogue cover image of Harris that surfaced online, featuring her dressed informally in a black suit, T-shirt and Converse sneakers against a pink fabric backdrop emblematic of her Howard University sorority, Alpha Kappa Alpha, was so maligned for whitewashing and undermining her authority that Condé Nast released the second “Madam Vice President” digital cover featuring a closer-cropped image of her wearing a pale blue suit by Michael Kors.</p>
+        <p>None of the covers were impressive. But, an avalanche of critisism that proceeded was unenecessery. For too long fashion has been used to belittle.</p> 
+        <p>Harris's team confirmed that they didn't approve covers.</p>
+        <p>A Vogue spokeswoman said, “The team at Vogue loved the images Tyler Mitchell shot and felt the more informal image captured Vice President-elect Harris’ authentic, approachable nature, which we feel is one of the Biden/Harris administration. To respond to the seriousness of this moment in history, and the role she has to play leading our country forwards, we’re celebrating both images of her as covers digitally.”
+
+        </p>
+      </div>
+      <div class="modal-footer">
+        <!-- <h3>Modal Footer</h3> -->
+      </div>
+    </div>
+  
+  </div>
+
+  
+ <div id="myModal1" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close1">&times;</span>
+        <h2 class="modal-header">Pelosi's impechment outfit</h2>
+      </div>
+      <div class="modal-body">
+        <img class="close-image" src="img/news/nancy.jpg" alt="Nancy Pelosi impeachment outfit">
+        
+                <p>Speaker of the House Nancy Pelosi has made a subtle statement by wearing the same outfit to the second impeachment of US President Donald Trump.
+                </p>
+                <p>Ms Pelosi’s office confirmed she’d worn the same outfit to The Hill on Wednesday, as Mr Trump became the first President in US history to be impeached twice.</p>                </p>
+                <p> Vogue wrote that Nancy's message with the impeachment outfit was clear; "Can you believe we are doing this again?".</p>
+
+        </p>
+      </div>
+      <div class="modal-footer">
+        <!-- <h3>Modal Footer</h3> -->
+      </div>
+    </div>
+  
+  </div>
 
 
  <footer class="footer-area">
@@ -272,5 +330,60 @@
 
 </body>
 
+<script>
+    // Get the modal
+    var modal = document.getElementById("myModal");
+    
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+
+<script>
+    // Get the modal
+    var modal1 = document.getElementById("myModal1");
+    
+    // Get the button that opens the modal
+    var btn1 = document.getElementById("myBtn1");
+    
+    // Get the <span> element that closes the modal
+    var span1 = document.getElementsByClassName("close1")[0];
+    
+    // When the user clicks the button, open the modal 
+    btn1.onclick = function() {
+      modal1.style.display = "block";
+    }
+    
+    // When the user clicks on <span> (x), close the modal
+    span1.onclick = function() {
+      modal1.style.display = "none";
+    }
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal1) {
+        modal1.style.display = "none";
+      }
+    }
+    </script>
 
 </html>
