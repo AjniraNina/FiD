@@ -10625,3 +10625,13 @@ display: block;
   box-shadow: 0 0px 0px;
 
 }
+
+
+.mobile-ctax {
+
+    background-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 13px;
+}
