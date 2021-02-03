@@ -10660,7 +10660,14 @@ display: block;
 {.content-quote{
   
   text-align: left;
-  font-size: 13px;
 
 
-}}
+}
+
+.content-quote p{
+  
+  font-size: 15px;
+
+}
+
+}
