@@ -10635,3 +10635,8 @@ display: block;
     border-right: none;
     font-size: 13px;
 }
+
+.muses:hover{
+  box-shadow: 0 0px 0px;
+
+}
