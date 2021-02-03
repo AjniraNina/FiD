@@ -10640,3 +10640,24 @@ display: block;
   box-shadow: 0 0px 0px;
 
 }
+
+.content-quote{
+  
+    font-size: 27px;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+    padding: 4%;
+
+}
+
+@media screen and (max-width: 899px)
+{.content-quote{
+  
+  font-size: 27px;
+  line-height: 2;
+  font-weight: 500;
+  text-align: left;
+  padding: 4%;
+
+}}
