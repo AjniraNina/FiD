@@ -10670,4 +10670,18 @@ display: block;
 
 }
 
+
+
+}
+@media screen and (max-width: 600px)
+{
+#aboutcontent p{
+  padding-bottom: 5%;
+ line-height: 2;
+}}
+
+#aboutcontent p{
+  padding-bottom: 2%;
+  line-height: 2;
+
 }
