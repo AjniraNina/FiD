@@ -10685,3 +10685,43 @@ display: block;
   line-height: 2;
 
 }
+
+.aboutContent{
+  padding-left: 182px;
+  padding-bottom: 120px;
+  padding-top: 3px;
+  padding-right: 120px;
+}
+
+@media screen and (max-width: 1200px)
+{
+
+  .aboutContent{
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+  
+}
+
+@media screen and (max-width: 380px)
+{
+
+.banner-headline-news {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 39px;
+  padding-top: 25px;
+}}
+
+.message-in-a-bottle {
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+    max-width: 800px;
+}
