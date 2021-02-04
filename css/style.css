@@ -10725,3 +10725,18 @@ display: block;
     margin: auto;
     max-width: 800px;
 }
+
+   .fancyContent
+   { font-family: 'Montserrat';
+    max-width: 800px;
+    margin: auto;
+    text-align: left;}
+
+    .fancyContent p{
+      font-family: 'Montserrat';
+      line-height: 2;
+      text-align: left;
+      padding:2%;
+
+
+    }
