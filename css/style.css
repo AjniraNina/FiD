@@ -10754,6 +10754,11 @@ display: block;
     }}
 
 
-   .fancyContent a {
+     .fancyContent a {
     color: #e35da2;
     font-weight: 600;}
+
+    #aboutcontent a{
+      color: #ffd200;
+      font-weight: 600;
+    }
