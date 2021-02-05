@@ -10730,7 +10730,7 @@ display: block;
    { font-family: 'Montserrat';
     max-width: 800px;
     margin: auto;
-    text-align: left;}
+    }
 
     .fancyContent p{
       font-family: 'Montserrat';
@@ -10740,7 +10740,7 @@ display: block;
 
 
     }
-    @media screen and (max-width: 380px)
+    @media screen and (max-width: 600px)
     {
     
 
@@ -10752,3 +10752,8 @@ display: block;
 
 
     }}
+
+
+   .fancyContent a {
+    color: #ffc2c1;
+    font-weight: bold;}
