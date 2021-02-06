@@ -8763,7 +8763,7 @@ and (min-device-width: 375px) and (max-device-width : 736px) and (-webkit-device
   /* display: flex; */
   margin-left: 59%;
   transform: rotate(-3deg);
-  margin-top: -24%;
+  margin-top: -15%;
 }
 
 
@@ -10768,3 +10768,33 @@ display: block;
       color: #e35da2;
       font-weight: 600;
     }
+
+
+.indentText{
+  padding-left:5%;
+}
+
+
+#meaty p{
+  padding-bottom: 2%;
+}
+
+.main-content-psychology{
+  margin:auto;}
+
+
+  @media screen and (max-width: 600px)
+  {
+  
+  .main-content-psychology p {
+    padding-bottom: 6%;
+}}
+
+.supportImageBig{
+  max-width: 50%;
+  margin:auto;
+}
+
+.supportImage{
+  margin:auto;
+}
