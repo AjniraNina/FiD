@@ -10751,7 +10751,13 @@ display: block;
       padding:2%;
 
 
-    }}
+    }
+  #aboutcontent p{
+
+    padding-left:1%;
+    padding-right:1%
+  }
+  }
 
 
      .fancyContent a {
