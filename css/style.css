@@ -10747,7 +10747,7 @@ display: block;
     .fancyContent p{
       font-family: 'Montserrat';
       line-height: 2;
-      text-align: center;
+      text-align: left;
       padding:2%;
 
 
@@ -10759,6 +10759,6 @@ display: block;
     font-weight: 600;}
 
     #aboutcontent a{
-      color: #ffd200;
+      color: #e35da2;
       font-weight: 600;
     }
