@@ -8645,7 +8645,7 @@ and (min-device-width: 375px) and (max-device-width : 736px) and (-webkit-device
 
 #intro-manifesto {
   text-align: left;
-  margin-top: 0px;
+  margin-top: 26px;
   margin-left: 0px;
   width: min-content;
 }
@@ -9918,7 +9918,7 @@ display: none;
   .main-content-psychology {
     padding-left: 0px;
     padding-bottom: 0px;
-    padding-top: 0px;
+    padding-top: 26px;
     padding-right: 0px;
     text-align: left;
   }
@@ -10798,3 +10798,21 @@ display: block;
 .supportImage{
   margin:auto;
 }
+
+.videoY{
+  max-width: 100%;
+}
+
+@media screen and (max-width: 320px)
+{
+
+.main-content-psychology h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 29px;
+  text-align: center;
+  margin: 37px;
+  letter-spacing: -0.015em;
+}}
