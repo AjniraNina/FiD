@@ -10202,6 +10202,10 @@ display: block;
   letter-spacing: -0.015em;
 }
 
+.centerImage{
+  margin:auto;
+  text-align: center;
+}
 .mobile-ctax {
   text-decoration: none;
   border-bottom: 2px solid #f3c5dc;
@@ -10367,6 +10371,15 @@ display: block;
 
 }
 
+.supportImageBig:hover{
+  box-shadow: 0 0px 0px;
+
+}
+
+.supportImage:hover{
+  box-shadow: 0 0px 0px;
+
+}
 
 .mobile-ctax {
 
