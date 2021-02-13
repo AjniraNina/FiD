@@ -7037,7 +7037,7 @@ letter-spacing: -0.015em;
   max-width: 34%;
   position: relative;
   top: 143px;
-  left: -124px;
+  left: 0px;
 }
 /* manifesto article mobile */
   @media only screen and (max-width: 600px) {
@@ -7395,10 +7395,10 @@ letter-spacing: -0.015em;
 }
 
 .main-content-psychology{
-  padding-left: 120px;
-  padding-bottom: 120px;
+  padding-left: 0px;
+  padding-bottom: 10px;
   padding-top: 60px;
-  padding-right: 120px;
+  padding-right: 0px;
 
 }
 
@@ -7552,8 +7552,7 @@ and (-webkit-min-device-pixel-ratio: 1){
   font-family: "Montserrat"; 
   font-style: normal; 
   font-weight: normal;
-  padding-bottom: 55px;
-  padding-top: 25px;
+
 }
 
 
@@ -10376,6 +10375,11 @@ display: block;
 
 }
 
+.danger:hover{
+  box-shadow: 0 0px 0px;
+
+}
+
 .supportImage:hover{
   box-shadow: 0 0px 0px;
 
@@ -10443,7 +10447,7 @@ display: block;
 .aboutContent{
   padding-left: 182px;
   padding-bottom: 120px;
-  padding-top: 3px;
+  padding-top: 36px;
   padding-right: 120px;
 }
 
@@ -10571,3 +10575,289 @@ display: block;
   letter-spacing: -0.015em;
 }}
 
+
+.red-underline{
+  text-decoration: underline;
+
+  -webkit-text-decoration-color: #ef1313;
+  text-decoration-color: #ffeb35;
+  text-decoration-style: wavy;
+  text-decoration-skip-ink: none;}
+
+
+  #flash-news{
+    line-height: 30px;
+  }
+
+  .fashion-news-logo {
+    /* transform: rotate(-0.9deg); */
+    max-width: 34%;
+    position: relative;
+    top: 66px;
+    left: 32%;
+}
+
+.main-content-psychology .heading-underline-yellow {
+  padding-left: 0px;
+  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-right: 0px;
+}
+
+@media screen and (max-width: 970px)
+{
+
+
+.fashion-news-logo {
+  /* transform: rotate(-0.9deg); */
+  max-width: 44%;
+  position: relative;
+  top: 66px;
+  left: 27%;
+}}
+
+@media screen and (max-width: 576px){
+.fashion-news-logo {
+    /* transform: rotate(-0.9deg); */
+    max-width: 48%;
+    position: relative;
+    margin-top: 12%;
+    margin-bottom: 2%;
+    left: 24%;
+}}
+
+@media screen and (max-width: 420px){
+.fashion-news-logo {
+    /* transform: rotate(-0.9deg); */
+    max-width: 80%;
+    position: relative;
+    margin-top: 12%;
+    margin-bottom: 18%;
+    left: 8%;
+}}
+
+.listing-news  {
+
+list-style-image: url(../img/bullet.png) ;
+margin-left: 5%;
+margin-top: 5%;
+
+
+}
+
+
+
+
+.listing-news li{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin: 22px;
+    padding-top: -17px;
+    text-align: left;
+ 
+  }
+
+
+
+@media only screen and (max-width: 600px){
+  .listing-news li {
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    margin: 5px;
+    text-align: left;
+    line-height: 36px;
+}}
+
+
+.listing-news ul li {
+  position: relative!important;
+  margin: 0 0 0 28px!important;
+  padding: 2px 0 2px 0px!important;
+}
+
+
+.gallery{
+  margin-top:10%
+}
+
+.gallery img{
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  border-radius:5px;
+}
+
+.fashion-inspo-logo {
+  transform: rotate(-11.9deg);
+  max-width: 22%;
+  position: relative;
+  top: 120px;
+  left: 19%;
+}
+
+.fashion-inspo-logo:hover{
+
+  box-shadow: 0 0px 0px;
+
+  
+}
+
+.fashion-news-logo:hover{
+
+  box-shadow: 0 0px 0px;
+
+  
+}
+
+@media only screen and (max-width: 1440px){
+.fashion-inspo-logo {
+  transform: rotate(-11.9deg);
+  max-width: 22%;
+  position: relative;
+  top: 100px;
+  left: 12%;
+}}
+
+@media only screen and (max-width: 1256px){
+.fashion-inspo-logo {
+    transform: rotate(-11.9deg);
+    max-width: 22%;
+    position: relative;
+    top: 67px;
+    left: 7%;
+}}
+
+@media only screen and (max-width: 774px){
+.fashion-inspo-logo {
+    transform: rotate(-11.9deg);
+    max-width: 31%;
+    position: relative;
+    top: 19px;
+    left: 3%;
+}}
+
+@media only screen and (max-width: 764px){
+.fashion-inspo-logo {
+    transform: rotate(-11.9deg);
+    max-width: 31%;
+    position: absolute;
+    top: 164px;
+    left: 3%;
+    /* margin-bottom: 10%; */
+}
+
+.gallery {
+  margin-top: 18%;
+}
+
+}
+
+@media only screen and (max-width: 586px){
+.fashion-inspo-logo {
+    transform: rotate(0.1deg);
+    max-width: 52%;
+    position: absolute;
+    top: 146px;
+    left: 22%;
+    margin-bottom: 10%;
+}}
+
+
+@media only screen and (max-width: 576px){
+.gallery {
+    margin-top: 48%;
+}}
+
+@media only screen and (max-width: 454px){
+.gallery {
+    margin-top: 56%;
+}}
+
+@media only screen and (max-width: 375px)
+{.gallery {
+    margin-top: 62%;
+}}
+
+@media only screen and (max-width: 355px){
+.gallery {
+    margin-top: 66%;
+}}
+
+.inspo-text p{
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin: 22px;
+  padding-top: -17px;
+  text-align: left;
+
+}
+
+
+
+@media only screen and (max-width: 600px){
+.inspo-text p {
+  font-size: 1em;
+  font-family: "Montserrat", sans-serif;
+  margin: 5px;
+  text-align: left;
+  line-height: 36px;
+}}
+
+
+.inspo-text h2{
+
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: -0.015em;
+
+}
+
+@media only screen and (max-width: 296px)
+{.gallery {
+    margin-top: 76%;
+}}
+
+@media only screen and (max-width: 250px){
+.gallery {
+    margin-top: 100%;
+}}
+
+.inspo-text h2 {
+margin-top:12%;
+margin-bottom:5%;
+}
+
+.inspo-text{
+  margin:auto;
+}
+
+
+
+.next{
+    color:  #ffe401!important;
+}
+
+.social-footer {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.placing-social{
+  margin-bottom: -2%;
+}
+@media only screen and (max-width: 899px){
+  .placing-social {
+    margin-top: 7%;
+    margin-bottom: -10%;
+}}
+
+@media only screen and (min-width: 1022px){
+.mobile-Insta{
+  display:none;
+}
+
+}
