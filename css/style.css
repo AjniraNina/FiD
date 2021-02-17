@@ -4330,7 +4330,7 @@ sup,
 sub,
 u,
 del {
-  color: #ef1313;
+  color: #3b3f40;
 }
 
 /* line 93, E:/168 fashionista in danger Blog/168_fashionista in danger_Blog_html/sass/_elements.scss */
@@ -9937,7 +9937,7 @@ left: 89%;}}
 }
 
 }
-}
+
 @media screen and (max-width: 320px){
 .container-wtw .secondary-cta {
     top: 64.5%;
@@ -11108,3 +11108,26 @@ font-weight: 300;}
 
   .spacermuseDanger {
 display:none;}}
+
+.footer-source{
+  margin-top:10%;}
+
+
+  .footer-source p{
+  font-size: 10px;
+  font-family: 'Montserrat';
+  padding: 0;
+  margin: 0px;
+  padding-bottom:0%;
+
+
+}
+
+.footer-source h5{
+  font-size: 11px;
+  font-family: 'Montserrat';
+}
+
+#meaty  .footer-source p{
+  padding-bottom:0%;
+}
