@@ -525,6 +525,29 @@ text-align: center;
   margin: auto;
 }
 
+
+.fashion-inspo-tile {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+}
+
+
+
+.fashion-inspo-tile-title {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+}
+
 .tile-card {
   display: block;
   text-decoration: none;
