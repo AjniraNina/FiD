@@ -11165,3 +11165,7 @@ display:none;}}
 .video-center{
   text-align: center;
 }
+
+.video-center h5 {
+  font-family: "Monteserrat";
+}
