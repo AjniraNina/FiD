@@ -6620,7 +6620,7 @@ display: none;
 
   #red {
     top: 63.5%;
-    left: 91%;
+    margin-left: -2%;
     color: black;
     font-size: 23px;
 }}
@@ -11168,4 +11168,80 @@ display:none;}}
 
 .video-center h5 {
   font-family: "Monteserrat";
+}
+
+.container-wtw h2 {
+    font-family: "Montserrat"!important;
+  }
+
+
+  @media only screen and (min-width: 791px){
+
+#blue-tutu {
+
+    top: 45%;
+    left: 50%;
+  }}
+
+  
+  .fashion-folklore img:hover{
+
+    box-shadow: 0 0px 0px;
+
+    
+  }
+  .fashion-folklore img {
+    max-width: 36%;
+    position: absolute;
+    top: 10%;
+    left: -16%;
+}
+
+
+@media only screen and (min-width: 1594px){
+
+  .fashion-folklore img {
+    top: 7%;
+  }}
+
+  @media only screen and (min-width: 1430px){
+
+    .fashion-folklore img {
+      top: 8%;
+    }}
+  
+    @media only screen and (max-width: 1420px){
+
+      .fashion-folklore img {
+        top: 11%;
+      }}
+    
+
+      @media only screen and (max-width: 1064px){
+.fashion-folklore img {
+    top: 14%;}
+}
+
+@media only screen and (max-width: 1064px)
+{.fashion-folklore img {
+    top: 13%;
+}
+}
+@media only screen and (max-width: 758px){
+.fashion-folklore img {
+    top: 11%;
+    left: -4%;
+}}
+
+
+.folklore-text {
+  margin-top: 11%;
+}
+
+@media only screen and (max-width: 758px){
+  .fashion-folklore img {
+display:none;
+  }
+
+  .folklore-text {margin-top:0px;}
 }
