@@ -6756,7 +6756,7 @@ display: none;
             font-family: "Montserrat";
             font-style: normal;
             font-weight: normal;
-            font-size: 28px;
+            font-size: 1.4rem;
             line-height: 36px;
             letter-spacing: -0.015em;
             color: #000000;
@@ -6767,7 +6767,7 @@ display: none;
             color: #666666;
             font-family: "Montserrat";
             line-height: 1.929;
-            font-size: 18px;
+            font-size: 1rem;
             margin-bottom: 0px;
             color: #646464;
         }
@@ -6815,7 +6815,7 @@ display: none;
         
           .qoutes-style p {
             font-family: "Montserrat";
-            font-size: 20px;
+            font-size: 1rem;
             line-height: 50px;
             margin-bottom: 30px;
             margin-top: -38px;
@@ -11245,3 +11245,42 @@ display:none;
 
   .folklore-text {margin-top:0px;}
 }
+
+
+
+@media only screen and (max-width: 1024px){
+  .spaceinbetween{
+display: none;
+  }
+}
+@media only screen and (max-width: 1024px)
+{
+.spaceinbetween{
+  display:block;
+  margin-top: 10%;
+}}
+
+.spaceontop{
+  display: none;
+}
+
+@media only screen and (max-width: 575px)
+{
+.spaceontop{
+  display:block;
+  margin-top: 20%;
+}}
+
+@media only screen and (max-width: 575px)
+{
+.spaceontop{
+  display:block;
+  margin-top: 25%;
+}}
+
+@media only screen and (max-width: 343px)
+{
+.spaceontop{
+  display:block;
+  margin-top: 35%;
+}}
