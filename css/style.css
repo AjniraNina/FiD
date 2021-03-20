@@ -11260,6 +11260,17 @@ display: none;
   margin-top: 10%;
 }}
 
+@media only screen and (max-width: 1024px)
+{
+  .spaceinbetweenx
+  {
+  display:block;
+  margin-top: 16%;
+}}
+
+
+
+
 .spaceontop{
   display: none;
 }
@@ -11283,4 +11294,12 @@ display: none;
 .spaceontop{
   display:block;
   margin-top: 35%;
+}}
+
+
+@media only screen and (max-width: 575px)
+{
+#sizeImage{
+  max-width: 70%;
+  margin: auto;
 }}
