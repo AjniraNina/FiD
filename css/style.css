@@ -11322,3 +11322,7 @@ display: none;
   padding-bottom: .3em;
   text-decoration: none;
 }
+
+.italic{
+  font-style: italic;
+}
