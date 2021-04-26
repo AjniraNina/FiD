@@ -1,2 +1,2 @@
 # fashionistaindanger
-Hub for fashion news, psychology &amp; inspo
+Fashion website built with HTML, CSS and Javascript
