@@ -15,13 +15,14 @@ body {
 body {
   font-family: "Montserrat", sans-serif;
   padding: 0;
-  margin: 0;
   font-size: 14px;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 100px;
   margin-right: 100px;
 }
+
+
 
 p{color:black!important;}
 
