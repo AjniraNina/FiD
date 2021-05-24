@@ -11339,3 +11339,7 @@ display: none;
 .indentSocial {
   padding-left: 2%;
 }
+
+.quotes-style.archive p{
+  padding-bottom:0px;
+}
