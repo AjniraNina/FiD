@@ -11350,3 +11350,5 @@ display: none;
 .quotes-style.archive p{
   padding-bottom:0px;
 }
+p::-moz-selection { color: red}
+p::selection { color: red; }
