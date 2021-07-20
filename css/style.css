@@ -7321,16 +7321,15 @@ letter-spacing: -0.015em;
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: #141414;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;  
-  background-color: gray;
+  background-color: #f2f2f2;
   opacity: 72%;
-
 }
 
 /* Number text (1/3 etc) */
