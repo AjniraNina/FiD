@@ -11383,3 +11383,6 @@ em::selection {
   background: #e29daf;
 }
 
+.folklore-featured{ 
+  display: flex;
+  justify-content: flex-start;}
