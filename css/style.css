@@ -11407,15 +11407,7 @@ em::selection {
 }
 }
 
-@media only screen and (min-width: 1090px){
- body{max-width: 80%;
-    margin: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: auto;}
-}
+
 
 .spotlight-container{
     display: flex;
