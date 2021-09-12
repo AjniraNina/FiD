@@ -11409,10 +11409,83 @@ em::selection {
 
 @media only screen and (min-width: 1090px){
  body{max-width: 80%;
-    margin: 10px;
+    margin: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;}
+}
+
+.spotlight-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotlight-container h1{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  margin:20px;
+  display: flex;
+}
+
+
+.social-spotlight-gradient{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,233,232,1) 100%);
+  position: relative;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  max-width: 440px;
+  border: 1px solid rgba(255, 230, 60, 0.53);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+  padding: 22px;
+  margin:15px;
+
+
+}
+
+.social-spotlight-gradient h2{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+}
+
+.social-spotlight{
+  position: relative;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  max-width: 440px;
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 230, 60, 0.53);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+  padding: 22px;
+  margin:15px;
+}
+
+.social-spotlight h2{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+}
+.spotlight-featured{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+@media only screen and (max-width: 575px){
+.spotlight-container{
+margin-top: 109px;}
 }
