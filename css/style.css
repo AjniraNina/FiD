@@ -266,7 +266,7 @@ font-family: "Montserrat", sans-serif;
   background-color: white;
   position: fixed;
   top: -68px;
-  width: 100%;
+  width: 90%;
   display: flex;
   transition: top 0.3s;
   justify-content: flex-end;
@@ -11405,4 +11405,14 @@ em::selection {
   margin-bottom:-120px;
   padding:20px;
 }
+}
+
+@media only screen and (min-width: 1090px){
+ body{max-width: 80%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;}
 }
