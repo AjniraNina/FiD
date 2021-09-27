@@ -11479,3 +11479,261 @@ em::selection {
 .spotlight-container{
 margin-top: 109px;}
 }
+
+.display-spotlight{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.spotlight-gradient{
+
+  overflow: hidden;
+  background: linear-gradient(49deg, #ffff006e, #37e7e8);
+
+  position: relative;
+  z-index:1;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+
+  max-width: 860px;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  border-radius: 8px;
+  padding: 10px;
+  margin:15px;
+
+}
+
+
+.spotlight-gradient:before,.spotlight-gradient:after{
+  content:'';
+  position:absolute;
+  width:100%;
+  height:100%;
+}
+.spotlight-gradient:before{
+  background: #b36783b3;
+  box-shadow: 0 0 140px 64px #c7afb400;
+  z-index: 2;
+;
+  z-index:2;
+  top: -100%;
+  left: -72%;
+  opacity: 0.8;
+}
+.spotlight-gradient:after {
+  background: #dac9f4;
+  z-index: 3;
+  bottom: -96%;
+  right: -61%;
+  box-shadow: 0 0 100px 64px #dac1f3c2;
+  opacity: 1;
+  border-radius: 100%;
+}
+
+.spotlight-gradient h1{
+  padding: 10px 110px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+}
+.spotlight-gradient p{
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+.spotlight-image {
+  width: 190px;
+  height: auto;
+  border-radius: 54px;
+  box-shadow: 0 2.5px 0 0 rgb(0 0 0 / 36%), 0 2px 4px 0 transparent, 0 12px 24px 0 transparent;
+  left: 125px;
+  top: 0px;
+  position: absolute;
+  z-index: 4;
+  transform: rotate(
+    370deg);
+}
+.spotlight-image:hover{
+  box-shadow: 0 2.5px 0 0 rgb(0 0 0 / 36%), 0 2px 4px 0 transparent, 0 12px 24px 0 transparent;
+}
+
+.kontejner{
+  display: block;
+  width: 50px;
+  height:50px
+}
+ 
+@media screen and (max-width: 1040px) {
+  .spotlight-image{
+    left: 40px;
+    top: -25px;  }
+}
+
+@media screen and (max-width: 1040px){
+.spotlight-image {
+  left: 108px;
+  top: -25px;
+}}
+
+
+@media screen and (max-width: 937px)
+{.spotlight-image {
+    left: 89px;
+    top: -25px;
+}
+.kontejner{
+  display: block;
+  width: 50px;
+  height: 110px;
+}
+ 
+}
+
+@media screen and (max-width: 806px){
+.spotlight-image {
+    left: 29px;
+    top: -58px;
+}}
+@media screen and (max-width: 784px) {
+.spotlight-image {
+  width: 158px;
+}}
+
+@media screen and (max-width: 781px){
+.spotlight-image {
+    left: 33px;
+    top: -25px;
+    width: 149px;
+}}
+
+@media screen and (max-width: 762px)
+{.spotlight-image {
+    left: 10px;
+    top: -25px;
+    width: 139px;
+}
+.spotlight-gradient h1 {
+  font-size: 16px;
+}
+.spotlight-gradient p{
+  margin-top: -14px;
+  margin-left: 51px;
+  font-size:10px}
+}
+
+@media screen and (max-width: 714px)
+{.spotlight-image {
+    left: 116px;
+    top: -3px;
+    width: 112px;
+}}
+
+@media screen and (max-width: 742px){
+.spotlight-image {
+    left: 5px;
+    top: -25px;
+    width: 149px;
+}
+.spotlight-gradient h1 {
+  font-size: 16px;
+}
+.spotlight-gradient p{
+  margin-top: -14px;
+  margin-left: 51px;
+  font-size:10px}
+}
+
+@media screen and (max-width: 742px){
+.spotlight-image {
+  left: 24px;
+  top: -3px;
+  width: 112px;
+}}
+@media screen and (max-width: 465px){
+.spotlight-gradient h1 {
+  font-size: 11px;
+}}
+
+@media screen and (max-width: 430px){
+  .spotlight-image {
+  left: 9px;
+  top: -1px;
+  width: 107px;
+}.spotlight-gradient {
+  padding: 6px;}
+  /* .flexing-quotes {
+    width: 10px;
+    height: 61px;
+} */
+.kontejner {
+  display: block;
+  width: 50px;
+  height: 72px;
+}
+}
+
+@media screen and (max-width: 403px){
+
+.spotlight-gradient {
+  padding: 0px;
+  margin: 0px;
+}
+
+.spotlight-image {
+  left: 21px;
+  top: -22px;
+  width: 84px;
+  border-radius: 28px;
+  transform: rotate( 
+0deg);
+}
+}
+@media screen and (max-width: 398px){
+.kontejner {
+  display: block;
+  width: 50px;
+  height: 75px;
+}}
+@media screen and (max-width: 379px){
+.spotlight-image {
+  left: 12px;
+  top: -4px;
+  width: 67px;
+  border-radius: 28px;
+  transform: rotate( 
+344deg);
+}
+.spotlight-gradient h1 {
+  padding: 8px 85px;}
+  /* .flexing-quotes {
+    width: 10px;
+    height: 61px;
+} */
+
+}
+
+
+  @media screen and (max-width: 320px)
+{.spotlight-image {
+    left: 12px;
+    top: -37px;}}
+
+    @media screen and (max-width: 275px)
+{   .spotlight-gradient p {
+      margin-top: -14px;
+      margin-left: 7px;
+      font-size: 10px;
+      
+  }
+  .spotlight-image {
+    left: 14px;
+    top: -65px;
+}
+  .spotlight-gradient h1 {
+    padding: 0px 47px;
+  }}
