@@ -8038,8 +8038,12 @@ margin-top: -93px;}
   
     
   }
+
+  .logo {
+    box-shadow: 0 0px 0px!important;
+}
     .logo:hover {
-      box-shadow: 0 0px 0px;
+      box-shadow: 0 0px 0px!important;
   }
 
     img:hover{   box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -10615,15 +10619,23 @@ display: block;
 
 }
 
-.supportImageBig:hover{
+.close-image{
   box-shadow: 0 0px 0px;
 
 }
 
+.supportImageBig:hover{
+  box-shadow: 0 0px 0px;
+
+}
+.supportImage{
+  box-shadow: 0 0px 0px!important;
+
+}
 
 
 .supportImage:hover{
-  box-shadow: 0 0px 0px;
+  box-shadow: 0 0px 0px!important;
 
 }
 
@@ -11242,7 +11254,7 @@ display:none;}}
   
   .fashion-folklore img:hover{
 
-    box-shadow: 0 0px 0px;
+    box-shadow: 0 0px 0px!important;
 
     
   }
