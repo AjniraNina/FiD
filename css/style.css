@@ -10937,7 +10937,13 @@ margin-top: 5%;
 }
 
 .gallery img{
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 0px rgba(0,0,0,0.3);
+  border-radius:5px;
+}
+
+
+.gallery img{
+  box-shadow: 0 5px 0px rgba(0,0,0,0.3);
   border-radius:5px;
 }
 
