@@ -529,6 +529,9 @@ text-align: center;
   align-items: center;
   max-width: 850px;
   margin: auto;
+
+  margin-bottom: 56px;
+  border-bottom: solid rgb(231, 231, 225) 1px;
 }
 
 
@@ -562,7 +565,7 @@ text-align: center;
   border-radius: 20px;
   overflow: hidden;
 
-  margin: 0px 40px;
+  margin: 0px 40px 16px;
 }
 
 
