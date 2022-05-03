@@ -11818,3 +11818,12 @@ padding-top:0px;
 padding-top:108px;
 }
 }
+
+.spoiler{ 
+  color: black; 
+  background-color:black;
+}
+
+.spoiler:hover { 
+  background-color:white; 
+  }
