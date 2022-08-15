@@ -11827,3 +11827,10 @@ padding-top:108px;
 .spoiler:hover { 
   background-color:white; 
   }
+
+.underline-quote{
+    display: block;
+    max-width: 700px;
+    text-align: center;
+    margin-left: 47px;
+    margin-top: -24px;}
