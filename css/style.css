@@ -9862,7 +9862,7 @@ display: none;
   .main-content-psychology {
     padding-left: 0px;
     padding-bottom: 0px;
-    padding-top: 26px;
+    padding-top: 60px;
     padding-right: 0px;
     text-align: left;
   }
@@ -11870,4 +11870,10 @@ padding-top:108px;
 .spacerino{
   display: block;
   height:40px;
+}
+.row-real{
+    display:flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
 }
