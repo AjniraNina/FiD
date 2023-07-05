@@ -86,10 +86,6 @@
 
             gtag('config', 'G-KGN31HG3V6');
         </script>
-
-
-        <body>
-
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="h15qeEIj"></script>
 
@@ -98,7 +94,60 @@
                 <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK7QWG7" height="0" width="0" style="display:none;visibility:hidden"></iframe>
             </noscript>
             <!-- End Google Tag Manager (noscript) -->
+            <!-- hidden div -->
 
+            <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.min.js"></script>
+
+            <style>
+                .hidden>div {
+                    display: none;
+                }
+            
+                .visible>div {
+                    display: block;
+                }
+                .title:hover {
+                    cursor: pointer;
+                }
+                .text_container.hidden{
+width: 200px;                }
+
+.close-icon {
+    cursor: pointer;
+    float: right;
+    font-size: 0.8em;  /* Make the * smaller */
+    display: none;  /* Hide the * initially */
+}
+            </style>
+            
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $('.text_container').addClass("hidden");
+            
+                    $('.text_container').click(function () {
+                        var $this = $(this);
+            
+                        if ($this.hasClass("hidden")) {
+                            $(this).removeClass("hidden").addClass("visible");
+                            $(this).find('.close-icon').show();  /* Show the * */
+                        } else {
+                            $(this).removeClass("visible").addClass("hidden");
+                            $(this).find('.close-icon').hide();  /* Hide the * */
+                        }
+                    });
+            
+                    $('.close-icon').click(function (event) {
+                        event.stopPropagation();  /* stop the click from bubbling up to the text_container */
+                        $(this).closest('.text_container').removeClass("visible").addClass("hidden");
+                        $(this).hide();  /* Hide the * */
+                    });
+                });
+            </script>
+            
+            
+</head>
+
+            <body>
 
             <!--::header part start::-->
             <header class="main_menu sticky-mobile">
@@ -189,35 +238,69 @@
                     
                     <p>
                        
-                        Step into the world of high fashion where innovation meets style and where colors are no longer static. Yes, you read it right! In a fascinating fusion of technology and design, I'm talking about clothes that change color.
+                        Step into the world of high fashion where innovation meets style and where colors are no longer static. Yes, you read it right! I'm talking about clothes that changes color.
 
-                    </p>                    
-                    <p>Japanese fashion brand Anrealage, founded by the visionary designer Kunihiko Morinaga, has debuted a collection that has left the fashion world spellbound. The collection, revealed at the Paris Fashion Week 2023, did not just push the boundaries of fashion, it completely defied them​​.
+                    </p> 
+                    <div class="row-real" style="justify-content:center;">
+                        <img class="supportImage centerImageNews" src="img/inspo/color-change/projects_pink_purple_line.gif" />
+                        </div>                   
+                    <p>Led by the innovative Kunihiko Morinaga, Japanese fashion powerhouse Anrealage has been the trailblazer in introducing clothes that shift color to the masses. ( or at least that is what Vogue would like you to believe )
 
                     </p>
                     <div class="row-real" style="justify-content:center;">
                         <img class="supportImage centerImageNews" src="img/inspo/color-change/color.jpg" class="giphy-embed" />
                         </div>
                     <p>
-                        The groundbreaking moment arrived when models appeared on the stage in crisp, all-white fabrics. Then, in a dramatic twist, a beam of UV light swept across their bodies, and voila! The clothes transformed into a symphony of colors and patterns. 
+                        Anyway, the magic is woven into the fabric itself. Anrealage’s collection cleverly employs photochromic materials - think of them as fabric chameleons basking in the sun! 
                     </p>     
-                    <p>               
-                        So, how does this magical transformation happen? The secret lies in the fabric. Anrealage's collection uses photochromic materials that change color when exposed to sunlight or proximity of UV rays.</p>
 
+                    
+                    <div class="text_container">
+                        <h3 class="title"><a class="mobile-ctax">But how does it work?</a><span class="close-icon hidden">x</span></h3>
+
+
+                        <div>
+                            <!--div that we want to hide-->
+                            <div class="indentText">
+             <p>They contain molecules that can absorb light (usually ultraviolet light) and undergo a chemical reaction that changes their structure. This structure change affects how the molecules absorb and reflect visible light, which we perceive as a color change.</p>
+
+                <p>Think of it as a tiny light-activated switch. When UV light hits the material, the switch flips, and the molecule changes its shape. This new shape absorbs light differently, causing the material to appear a different color. When the UV light is removed, the molecule flips back to its original form, and the material returns to its original color.</p>
+
+                </div>
+                </div>
+                </div>
                         <div class="row-real" style="justify-content:center;">
                             <img class="supportImage centerImageNews" src="img/inspo/color-change/beyonce.webp" class="giphy-embed" />
                             </div>
                         
-                        <p>The brand ingeniously constructs garments using these innovative materials, creating pieces that continually evolve with the changing intensity of sunlight and UV rays. Essentially, your outfit could change from pristine white to a vibrant array of colors simply by stepping out into the sun. How cool is that?
+              
+                        <p>But this is just the tip of the iceberg. Enter Lauren Bowker and her fashion house The Unseen, or the Italian brand Stone Island. They've embraced this same chameleon-like technology, dabbling with temperature-sensitive fabric and color-changing hair dye.</p>
+                        <div class="row-real" style="justify-content:center;">
+                            <iframe class="supportImage centerImageNews"  width="560" height="315" src="https://www.youtube.com/embed/e-0bvdwM_3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          </div>  
+                           <p> Even eyewear hasn't escaped this trend, with American brand Transitions Optical creating lenses that adjust their tint with sunlight exposure.
 </p>                 
+<div class="row-real" style="justify-content:center;">
+    <img class="supportImage centerImageNews" src="img/inspo/color-change/what-to-wear.jpg" alt=" girl in color changing glasses" />
+    </div>  
 
-    <div class="row-real" style="justify-content:center;">
-        <img class="supportImage centerImageNews" src="img/inspo/color-change/projects_pink_purple_line.gif" />
-        </div>
-                   <p>This is not just a leap forward in fashion but also an exciting step towards a future where our clothes interact with our environment in dynamic and visually stunning ways. With this innovation, Anrealage has opened up a whole new realm of possibilities, setting the stage for the next generation of fashion.</p>
+
+   <p>Since the technology is still relatively novel in the fashion industry, and the process of creating these fabrics is complex, garments featuring photochromic materials can be a significant investment. The affordability of such clothing is still a question mark for the average consumer, making it more of a luxury than a commonplace item.</p>
+
+
+   <p>Then there's the matter of upkeep. While photochromic materials can generally be washed, harsh detergents, high temperatures, or intense mechanical stress might shorten the lifespan of the photochromic effect.</p>
+
+   <div class="row-real" style="justify-content:center;">
+    <img class="supportImage centerImageNews" src="img/inspo/color-change/nike.jpeg" alt="nike" />
+    </div>  
+
+
+   <p>It's also worth noting that the longevity of the photochromic effect in a material over time — that is, the material's ability to continue changing color when exposed to UV light — can be influenced by factors such as the quality of the material, how it's been treated and cared for, and the amount of UV exposure it regularly receives. With proper care and some lab updates, photochromic materials can continue to change color for many years.
+   </p>
+
+                   <p>Still this is a captivating glimpse into a future where our clothes could interact with our environment in dazzling, dynamic ways. With this leap, Anrealage, alongside others, flings open the door to a realm of possibilities, paving the runway for the next generation of fashion.</p>
                     
-                 <p> So, ready to paint the town red, blue, green, or any color you'd like, one sunny day at a time? (ALERT: Don't get inspired to go into debt, this stuff is expensive - and kinda ugly? Too soon?)
-</p>                    
+                 <p> So, ready to paint the town red, blue, green, or any color you'd like, one sunny day at a time? </p>                    
        
 
                     <small>
