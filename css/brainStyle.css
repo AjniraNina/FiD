@@ -1,0 +1,35 @@
+.main-content-psychology h1 {
+    font-size: 5vw; /* Adjust as needed */
+    text-align: center;
+    padding: 10px; /* Adjust padding as required */
+    line-height: 1.2;
+}
+
+.main-content-psychology h2 {
+    font-size: 3vw; /* Adjust as needed */
+    text-align: center;
+    padding: 10px; /* Adjust padding as required */
+    line-height: 1.2;
+}
+
+/* Media query for devices less than 600px */
+@media (max-width: 600px) {
+    .main-content-psychology h1 {
+        font-size: 6vw; /* Adjust as needed */
+    }
+
+    .main-content-psychology h2 {
+        font-size: 4vw; /* Adjust as needed */
+    }
+}
+
+/* Media query for devices more than 1200px */
+@media (min-width: 1200px) {
+    .main-content-psychology h1 {
+        font-size: 3rem; /* Adjust as needed */
+    }
+
+    .main-content-psychology h2 {
+        font-size: 2rem; /* Adjust as needed */
+    }
+}
