@@ -4672,7 +4672,7 @@ h6 {
 
 /* line 317, E:/168 fashionista in danger Blog/168_fashionista in danger_Blog_html/sass/_elements.scss */
 .genric-btn.link {
-  color: #415094;
+  color: #efd10cdf;
   background: #f9f9ff;
   text-decoration: underline;
   border: 1px solid transparent;
@@ -4680,7 +4680,7 @@ h6 {
 
 /* line 322, E:/168 fashionista in danger Blog/168_fashionista in danger_Blog_html/sass/_elements.scss */
 .genric-btn.link:hover {
-  color: #415094;
+  color: #790bb9;
   border: 1px solid #f9f9ff;
   background: #fff;
 }
@@ -11875,4 +11875,15 @@ padding-top:108px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: auto;
+}
+
+.genric{
+  color: #efd10cdf;
+  border: 1px solid transparent;
+}
+
+/* line 322, E:/168 fashionista in danger Blog/168_fashionista in danger_Blog_html/sass/_elements.scss */
+.genric:hover {
+  color: #790bb9;
+  border-bottom: 1px solid #f9f9ff;
 }
